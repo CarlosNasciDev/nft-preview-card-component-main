@@ -1,0 +1,106 @@
+/*## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%)
+}
+
+.card{
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    height: 700px;
+    width: 350px;
+}
+
+.nft-image{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.title{
+   font-weight: 600;
+   
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+    padding-left: 36%;
+}
+
+hr{
+    margin: 20px;
+    color: hsl(215, 51%, 70%);    
+}
+
+.avatar{
+    height: 30px;
+    border: 10px;
+    border-color: white;
+}
+
+p{
+    margin: 20px;
+    padding: 10px;
+}
+
+.autor{
+    font-weight: 300;
+}
+
+.nome{
+    color: white;
+}
+
+.attribution {  
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;     
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%)
+}
+
+a:hover{
+  color: hsl(178, 100%, 50%);  
+}
+    
