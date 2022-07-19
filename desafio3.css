@@ -52,8 +52,7 @@ body{
 }
 
 .title{
-   font-weight: 600;
-   
+   font-weight: 600;   
 }
 
 .price{
@@ -65,15 +64,10 @@ body{
     padding-left: 36%;
 }
 
-hr{
-    margin: 20px;
-    color: hsl(215, 51%, 70%);    
-}
-
 .avatar{
     height: 30px;
-    border: 10px;
-    border-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
 }
 
 p{
@@ -82,7 +76,9 @@ p{
 }
 
 .autor{
+    border-top: 1px solid hsl(215, 51%, 70%);
     font-weight: 300;
+    padding-top: 50px;
 }
 
 .nome{
